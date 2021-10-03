@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<category>
+  <games>
+    <system_requirements>Ram 2,Cpu 3,Gpu 1</system_requirements>
+	<rate>Perfect</rate>
+    <title>FiFa</title>
+    <genre>Football</genre>
+    <price>44.95</price>
+    <publish_date>2020-2-12</publish_date>
+	<id>1</id>
+  </games>
+  <games>
+    <system_requirements>Ram 3,Cpu 2,Gpu 2</system_requirements>
+	<rate>Bad</rate>
+    <title>Pro Evolution</title>
+    <genre>Football</genre>
+    <price>55.95</price>
+    <publish_date>2020-8-16</publish_date>
+	<id>2</id>
+  </games>
+  <games>
+  <system_requirements>Ram 1,Cpu 1,Gpu 2</system_requirements>
+	<rate>Average</rate>
+    <title>Mx</title>
+    <genre>Motorcycle</genre>
+    <price>75.95</price>
+    <publish_date>2020-11-17</publish_date>
+	<id>3</id>
+  </games>
+   <games>
+   <system_requirements>Ram 4,Cpu 2,Gpu 2</system_requirements>
+	<rate>Bad</rate>
+    <title>Enduro</title>
+    <genre>Motorcycle</genre>
+    <price>44.95</price>
+    <publish_date>2020-2-12</publish_date>
+	<id>4</id>
+  </games>
+  <games>
+    <system_requirements>Ram 4,Cpu 2,Gpu 2</system_requirements>
+	<rate>Average</rate>
+    <title>Call of Duty</title>
+    <genre>War</genre>
+    <price>55.95</price>
+    <publish_date>2020-8-16</publish_date>
+	<id>5</id>
+  </games>
+  <games>
+    <system_requirements>Ram 3,Cpu 3,Gpu 3</system_requirements>
+	<rate>Very good</rate>
+    <title>Hallo</title>
+    <genre>War</genre>
+    <price>45.95</price>
+    <publish_date>2020-11-17</publish_date>
+	<id>6</id>
+  </games>
+</category>

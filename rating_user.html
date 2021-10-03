@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Star rating using pure CSS</title>
+  
+  <style>
+  
+
+.h2{
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+   width: 1200px;
+  
+}
+
+   /*table, th, td ,*/ 
+	.div,h2{
+        border: none;
+        border-collapse: collapse;
+        background-color: transparent;
+    }
+
+    .th, div ,h2{
+        background-color: black;
+		color:white;
+        border: 1px solid black;
+        width: 1200px;
+    }
+
+    .th,h2{
+        padding: 5px;
+    }
+
+
+	.btn {
+	background-color: black;
+	color: white;
+	padding: 12px;
+	margin: 10px 0;
+	border: none;
+	width: 100%;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 17px;
+	}
+
+	.btn:hover {
+	background-color: black;
+		}
+
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+div.picture1 {
+   width:1221px; /*width of your image*/
+   height:480px; /*height of your image*/
+   background-image:url('fifa.jpg');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
+
+div.picture2 {
+   width:1221px; /*width of your image*/
+   height:480px; /*height of your image*/
+   background-image:url('mx3.jpg');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
+
+div.picture3 {
+   width:1221px; /*width of your image*/
+   height:480px; /*height of your image*/
+   background-image:url('pro1.jpg');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
+
+div.picture4 {
+   width:1221px; /*width of your image*/
+   height:480px; /*height of your image*/
+   background-image:url('halo2.jpg');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
+div.picture5 {
+   width:1221px; /*width of your image*/
+   height:480px; /*height of your image*/
+   background-image:url('mx.jpg');
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+}
+
+ </style>
+
+
+
+<body>
+
+
+
+
+<h2 style="text-align:center">Rate the games about to price and system requirements.    </h2>
+
+
+
+	<form action="index_fifa.php" method="GET">
+
+		<th><div class="picture1">&nbsp;</div>
+
+		<input type="submit" value="Rating" class="btn"> </th>
+ 
+ 
+	</form>
+
+ 
+ 
+ 
+ 
+ <form action="index_mx.php" method="GET">
+
+		<th><div class="picture2">&nbsp;</div></th>
+
+		<input type="submit" value="Rating" class="btn"> </th>
+ 
+ 
+	</form>
+	
+
+  
+  
+  
+ <form action="index_pro.php" method="GET">
+
+		<th><div class="picture3">&nbsp;</div></th>
+
+		<input type="submit" value="Rating" class="btn"> </th>
+ 
+ 
+	</form>
+  
+ 
+ 
+ 
+  <form action="index_halo.php" method="GET">
+
+		<th><div class="picture4">&nbsp;</div></th>
+
+		<input type="submit" value="Rating" class="btn"> </th>
+ 
+ 
+	</form>
+
+  
+  
+  
+  
+  <form action="index_enduro.php" method="GET">
+
+		<th><div class="picture5">&nbsp;</div></th>
+
+		<input type="submit" value="Rating" class="btn"> </th>
+ 
+ 
+	</form>
+  
+ 
+ <br><br>
+
+
+
+<form action="action_rate12.php" method="GET">
+
+  <textarea name="message" rows="10" cols="172">Give your critics</textarea><br>
+  	   
+  <br><br>
+  <input type="submit" value="User Rating result" class="btn">
+</form>
+
+</body>
+</html>

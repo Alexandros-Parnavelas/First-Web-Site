@@ -1,0 +1,5 @@
+star-1||1
+star-2||5
+star-3||81
+star-4||22
+star-5||8
